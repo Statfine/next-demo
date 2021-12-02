@@ -52,11 +52,9 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
-        <button onClick={() => router.push("/team")}>
-          Click here to team
-        </button>
+        <button onClick={() => router.push("/team")}>Click here to Antd</button>
         <button onClick={() => router.push("/detail/123?targe=hi")}>
-          Click here to detail
+          Click here to newPage
         </button>
       </main>
 

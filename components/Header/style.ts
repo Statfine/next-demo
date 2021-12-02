@@ -2,13 +2,13 @@
  * @Description:
  * @Author: shaojia
  * @Date: 2021-12-02 17:36:46
- * @LastEditTime: 2021-12-02 18:07:31
+ * @LastEditTime: 2021-12-02 18:37:31
  * @LastEditors: shaojia
  */
 import styled from "styled-components";
 
 export const HeaderDiv = styled.div`
-  background-color: #4885ed;
+  background-color: #FFF;
   position: relative;
   z-index: 10;
   height: 64px;
@@ -23,11 +23,11 @@ export const HeaderDiv = styled.div`
       display: inline;
       vertical-align: middle;
       margin-right: 16px;
-      width: 32px;
+      height: 64px;
     }
     span {
       outline: none;
-      font-size: 14px;
+      font-size: 24px;
       line-height: 28px;
     }
   }

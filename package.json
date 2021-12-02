@@ -2,9 +2,11 @@
   "name": "next-demo",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 4000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 4001",
+    "start:export": "next build && next export && serve out",
+    "export": "next build && next export",
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,6 +19,7 @@
     "@types/react": "17.0.37",
     "eslint": "7",
     "eslint-config-next": "12.0.4",
+    "serve": "^13.0.2",
     "typescript": "4.5.2"
   }
 }

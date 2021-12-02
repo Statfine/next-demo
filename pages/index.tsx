@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
+import { useRouter } from "next/router";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
+  const router = useRouter();
   return (
     <div className={styles.container}>
       <Head>
@@ -50,6 +52,12 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
+        <button onClick={() => router.push("/team")}>
+          Click here to team
+        </button>
+        <button onClick={() => router.push("/detail/123?targe=hi")}>
+          Click here to detail
+        </button>
       </main>
 
       <footer className={styles.footer}>

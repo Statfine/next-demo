@@ -13,6 +13,8 @@
     "antd": "^4.17.2",
     "dayjs": "^1.10.7",
     "next": "12.0.4",
+    "rc-queue-anim": "^2.0.0",
+    "rc-scroll-anim": "^2.7.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-is": "^17.0.2",
